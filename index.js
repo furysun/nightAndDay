@@ -18,7 +18,7 @@ const themes = [
     },
     {
         name: 'white',
-        headerBackgroundImage: '../img/m-h-day.jpg',
+        headerBackgroundImage: './img/m-h-day.jpg',
         backgroundColor: 'white',
         headerHeadingColor: 'rgb(32, 34, 45)',
         highlightedTextColor: 'rgb(35, 160, 197)',
