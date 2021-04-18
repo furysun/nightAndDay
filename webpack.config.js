@@ -1,4 +1,5 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyPlugin = require("copy-webpack-plugin");
 
 const path = require('path');
 
@@ -17,6 +18,11 @@ module.exports = {
         new HtmlWebpackPlugin({
             inject: true,
             template: 'index.html'
+        }),
+        new CopyPlugin({
+            patterns: [
+                {from: "img", to: "img"},
+            ],
         }),
     ],
     module: {

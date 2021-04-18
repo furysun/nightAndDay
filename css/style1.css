@@ -3,8 +3,18 @@ body {
   background-color: white; }
 
 .highlighted-text {
-  background-color: #23a0c5; }
-
+  background-color: #23a0c5;
+}
+.instructions{
+  width: 250px;
+  border: bisque solid 2px;
+  margin: auto auto 30px;
+  padding-left: 10px;
+  color: #96374d;
+}
+#button-section{
+  margin-top: 50px;
+}
 .header {
   background: url("../img/m-h-day.jpg");
   background-position: 50% 50%;
